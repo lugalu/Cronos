@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SXM-jk-Ehf"; */
+"SXM-jk-Ehf.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Status"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Status";
+
+/* Class = "UITabBarItem"; title = "Rendimento"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Rendimento";
+
+/* Class = "UILabel"; text = "  Status"; ObjectID = "jRd-xI-ppF"; */
+"jRd-xI-ppF.text" = "  Status";
+
+/* Class = "UIButton"; normalTitle = "back"; ObjectID = "mYg-Mu-2Z7"; */
+"mYg-Mu-2Z7.normalTitle" = "back";
+
+/* Class = "UITabBarItem"; title = "Tarefas"; ObjectID = "s89-a5-Oe2"; */
+"s89-a5-Oe2.title" = "Tarefas";
+
+/* Class = "UITabBarItem"; title = "Ajustes"; ObjectID = "xYb-us-PaW"; */
+"xYb-us-PaW.title" = "Ajustes";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";
