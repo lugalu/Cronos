@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2534B9210B9BC500FED76B /* AddTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2534B8210B9BC500FED76B /* AddTarefaViewController.swift */; };
+		3F2534BD210BAF9500FED76B /* PosAjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2534BC210BAF9500FED76B /* PosAjustesViewController.swift */; };
 		3FC1108A210A64F700D7C9BF /* PosStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC11089210A64F700D7C9BF /* PosStatusViewController.swift */; };
 		3FFF9BB62108E6FC00DC68B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF9BB52108E6FC00DC68B5 /* AppDelegate.swift */; };
 		3FFF9BB82108E6FC00DC68B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF9BB72108E6FC00DC68B5 /* FirstViewController.swift */; };
@@ -16,9 +18,12 @@
 		3FFF9BC22108E6FC00DC68B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF9BC02108E6FC00DC68B5 /* LaunchScreen.storyboard */; };
 		3FFF9BCA2108E81400DC68B5 /* TerceiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF9BC92108E81400DC68B5 /* TerceiraViewController.swift */; };
 		3FFF9BCC2108E99D00DC68B5 /* QuartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF9BCB2108E99D00DC68B5 /* QuartaViewController.swift */; };
+		6C79BDAB210CFCAE002B650D /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79BDAA210CFCAE002B650D /* TextInputTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2534B8210B9BC500FED76B /* AddTarefaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTarefaViewController.swift; sourceTree = "<group>"; };
+		3F2534BC210BAF9500FED76B /* PosAjustesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosAjustesViewController.swift; sourceTree = "<group>"; };
 		3FC11089210A64F700D7C9BF /* PosStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosStatusViewController.swift; sourceTree = "<group>"; };
 		3FFF9BB22108E6FC00DC68B5 /* Cronos teste 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cronos teste 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF9BB52108E6FC00DC68B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		3FFF9BC92108E81400DC68B5 /* TerceiraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceiraViewController.swift; sourceTree = "<group>"; };
 		3FFF9BCB2108E99D00DC68B5 /* QuartaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartaViewController.swift; sourceTree = "<group>"; };
 		6C79BDA9210AB780002B650D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		6C79BDAA210CFCAE002B650D /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +73,11 @@
 				3FFF9BB72108E6FC00DC68B5 /* FirstViewController.swift */,
 				3FFF9BB92108E6FC00DC68B5 /* SecondViewController.swift */,
 				3FFF9BC92108E81400DC68B5 /* TerceiraViewController.swift */,
-				3FC11089210A64F700D7C9BF /* PosStatusViewController.swift */,
 				3FFF9BCB2108E99D00DC68B5 /* QuartaViewController.swift */,
+				3FC11089210A64F700D7C9BF /* PosStatusViewController.swift */,
+				6C79BDAA210CFCAE002B650D /* TextInputTableViewCell.swift */,
+				3F2534B8210B9BC500FED76B /* AddTarefaViewController.swift */,
+				3F2534BC210BAF9500FED76B /* PosAjustesViewController.swift */,
 				3FFF9BBB2108E6FC00DC68B5 /* Main.storyboard */,
 				3FFF9BBE2108E6FC00DC68B5 /* Assets.xcassets */,
 				3FFF9BC02108E6FC00DC68B5 /* LaunchScreen.storyboard */,
@@ -149,11 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2534B9210B9BC500FED76B /* AddTarefaViewController.swift in Sources */,
+				3F2534BD210BAF9500FED76B /* PosAjustesViewController.swift in Sources */,
 				3FFF9BBA2108E6FC00DC68B5 /* SecondViewController.swift in Sources */,
 				3FFF9BCA2108E81400DC68B5 /* TerceiraViewController.swift in Sources */,
 				3FFF9BCC2108E99D00DC68B5 /* QuartaViewController.swift in Sources */,
 				3FC1108A210A64F700D7C9BF /* PosStatusViewController.swift in Sources */,
 				3FFF9BB62108E6FC00DC68B5 /* AppDelegate.swift in Sources */,
+				6C79BDAB210CFCAE002B650D /* TextInputTableViewCell.swift in Sources */,
 				3FFF9BB82108E6FC00DC68B5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
