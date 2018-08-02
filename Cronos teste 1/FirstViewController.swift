@@ -11,6 +11,7 @@ import UIKit
 let celDoStatus = ["Tarefas realizadas","Tarefas a fazer"]
 let imagensDoStatus: [UIImage] = [UIImage(named: "feito.pdf")!,UIImage(named: "naofeito.pdf")!]
 var meuIndexStatus = 0
+var secaoStatus = 0
 
 class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
@@ -20,8 +21,8 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.automaticallyAdjustsScrollViewInsets = false
         
-        self.automaticallyAdjustsScrollViewInsets = false;
     }
 
     func tableView( _ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -37,6 +38,11 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         meuIndexStatus = indexPath.row
+        if indexPath.section == 0{
+            secaoStatus = 1
+        }else{
+            secaoStatus = 2
+        }
         performSegue(withIdentifier: "segueStatus", sender: self)
     }
 }
